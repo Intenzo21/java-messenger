@@ -2,7 +2,7 @@
 
 ## 1. Description
 
-For this assessment we had to build a Java Messenger application using Socket programming. It is a console based program that is launched from the command line. The application consists of two parts: server and client. Each part can run independently on separate computers in the same network, e.g. Local Area Network (LAN)
+For this assessment we had to build a Java Messenger application using Socket programming. It is a console based program that is launched from the command line. The application consists of two parts: server and client. Each part can run independently on separate computers in the same network, e.g. Local Area Network ((<a href="https://en.wikipedia.org/wiki/File_Allocation_Table" target="_blank">**LAN**</a>))
 
 There can be multiple clients connect to a server and they can chat to each other, just like in a chat room. After getting connected to the server, the user must provide his or her name to enter the chat. The server sends a command list and displays the names of currently online users to the new user. Moreover, a feedback message is sent to the
 client every time a command is used in the console. 
@@ -45,7 +45,7 @@ The commands that a user can use inside the Messenger application are as follows
 
 * **‘ClientConnection’** - instantiated by the server whenever a client connects to the server and acts as the “receiver” for any messages received from such a client (calls the methods on the server side).
 
-* **‘MessageClient’** - implements a client application that can connect to this server. It starts the client program, connects to a server specified by hostname/IP address and port number. Once the connection is made, it creates and starts two threads **‘MessageReadThread’ and **‘MessageWriteThread’**.
+* **‘MessageClient’** - implements a client application that can connect to this server. It starts the client program, connects to a server specified by hostname/IP address and port number. Once the connection is made, it creates and starts two threads **‘MessageReadThread’** and **‘MessageWriteThread’**.
 
 * **'MessageReadThread'** - for reading server's input and printing it to the
 console. It runs in an infinite loop until the client disconnects from the server.
