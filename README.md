@@ -1,4 +1,4 @@
-# java-messenger-app
+# Java Messenger Application
 
 ## 1. Description
 
