@@ -2,7 +2,7 @@
 
 ## 1. Description
 
-For this assessment, we had to build a Java Messenger application using Socket programming. It is a console-based program that is launched from the command line. The application consists of two parts: server and client. Each part can run independently on separate computers in the same network, e.g. Local Area Network (LAN).
+For this project, we had to build a Java Messenger application using Socket programming. It is a console-based program that is launched from the command line. The application consists of two parts: server and client. Each part can run independently on separate computers in the same network, e.g. Local Area Network (LAN).
 
 There can be multiple clients connected to a server and they can chat with each other, just like in a chat room. After getting connected to the server, the user must provide his or her name to enter the chat. The server sends a command list and displays the names of currently online users to the new user. Moreover, a feedback message is sent to the client every time a command is used in the console.
 
